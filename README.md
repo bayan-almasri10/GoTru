@@ -1,7 +1,7 @@
 # Introduction 
   * This project is a Landing page for Programming Company Go-Tru website.
 
-## How To Use The Project
+# How To Use The Project
   * To use this project you should have to install the following :
     1. Install the Node.js
     2. Install the Next.js 14
@@ -10,11 +10,11 @@
     2. npm run dev
   ()
 
-### Benefits
+# Benefits
 
    * Marketing and familiarization with the services of the company and helping customers to access the services of this company
 
-#### Support
+# Support
 
 If you need help with this project, here are some resources you can use:
 
