@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    width:1440px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.bg-container{
+    background-image: url("../../public/assets/arabic-calligraphy-wallpaper-black-wall-with-overlapping-old-paper-background 1.png");
+    background-rebate: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}

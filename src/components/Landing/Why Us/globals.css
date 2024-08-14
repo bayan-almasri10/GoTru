@@ -1,0 +1,35 @@
+.whyUs {
+  background: linear-gradient(
+    to right,
+    rgba(1, 9, 12, 0.9) 0%,
+    rgba(0, 72, 100, 0.9) 50%,
+    rgba(1, 9, 12, 0.9) 100%
+  );
+}
+.whyUs h1 {
+  font-whight: regular;
+  background-image: linear-gradient(to bottom, #ffffff, #ffffffb9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -4px;
+}
+
+.mission {
+  letter-spacing: -2px;
+  font-whight: regular;
+  background-image: linear-gradient(to bottom, #ffffff, #ffffffb9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.whyUS-parg {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.whyUs-btn {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 81, 113, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+}

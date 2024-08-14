@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.step-item {
+  @apply relative flex flex-col items-center;
+}
+
+.step-item:not(:first-child)::before {
+  @apply content-[''] absolute w-full h-[1.4rem] right-2/4 top-9 -translate-y-2/4 bg-gray-100 shadow-inner;
+}
+
+.step {
+  @apply w-20 h-20 flex items-center justify-center z-10 relative bg-[#71B331] rounded-full text-white font-extrabold text-4xl
+          border-[.7rem] border-gray-100;
+}
+
+.active .step {
+  @apply bg-[#003449] shadow-inner;
+}
+
+.cardItem:before {
+  @apply content-[''] absolute border-solid border-t-transparent border-r-transparent border-b-[#DFDFDF] border-l-transparent border-[15px]  top-28;
+}
+
+.active .cardItem {
+  @apply bg-[#003449] transition ease-in-out delay-300 -translate-y-1 scale-125 duration-700;
+}
+
+.active .cardItem:before {
+  @apply content-[''] absolute border-solid border-t-transparent border-r-transparent border-b-[#003449] border-l-transparent border-[15px] -top-7 transition ease-in-out delay-300;
+}
+
+.active .cardItem p {
+  @apply text-[#ffffff];
+}
+
+.complete:not(:first-child)::before,
+.active:not(:first-child)::before {
+  @apply bg-blue-600;
+}

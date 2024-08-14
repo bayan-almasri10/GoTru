@@ -1,0 +1,19 @@
+.footer {
+  background-image: url('../../../../public/assets/beautiful-skyline-dubai-surrounded-by-sand-dust-day-light 1.png');
+  background-rebate: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.Poppins {
+  font-famile: 'Poppins', sans-serif;
+}
+
+.footer h1 .creative {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  font-famile: 'Montserrat', sans-serif;
+}
