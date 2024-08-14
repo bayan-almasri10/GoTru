@@ -20,13 +20,9 @@ If you need help with this project, here are some resources you can use:
 
 **Documentation:**
     - Review the [Next.js Documentation](https://nextjs.org/docs) for general information about Next.js features.
-
     - Review the [TailwindCss Documentation](https://tailwindcss.com/docs/installation) for general information about tailwindcss.
-
     - Review the [Bootstrap Documentation](https://icons.getbootstrap.com/) for general information about Bootstrap.
-
     - Review the [MUI Documentation](https://mui.com/material-ui/getting-started/) for general information about MUI.
-
     - Review the [swiper Documentation](https://swiperjs.com/demos) for general information about Swiper
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
