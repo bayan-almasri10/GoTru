@@ -4,10 +4,11 @@
 
 
 html{
-    width:1440px;
+    width:full;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .bg-container{
@@ -15,4 +16,12 @@ html{
     background-rebate: no-repeat;
     background-size: cover;
     background-origin: border-box;
+    width: auto;
+    hight:auto;
+}
+
+@layer base {
+  :root {
+        --radius:0.5rem;
+    }
 }

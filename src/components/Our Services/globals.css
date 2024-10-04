@@ -1,0 +1,21 @@
+.OurServices h1 {
+  font-weight: regular;
+}
+
+.serviceItem :hover {
+  background-color: #003449;
+}
+
+.serviceItem :hover p {
+  color: #ffffff;
+}
+
+.serviceItem :hover .text {
+  color: #ccc;
+}
+.serviceItem :hover .icon {
+  color: #ffffff;
+  background-color: #71b331;
+}
+
+
